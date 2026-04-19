@@ -1,0 +1,4 @@
+interaction:
+  - name: "rlla"
+    class_name: "verl.interactions.rlla_interaction.RllaInteraction"
+    config: {}
