@@ -1,12 +1,6 @@
-## Tool Internalization and Reasoning (TInR)
+# TInR
 
-This repository contains the code for training and evaluating a tool-internalization and tool-using language model in three stages:
-
-- **Stage 1 – Tool memorization / recall / use** on token-level tool representations.
-- **Stage 2 – Tool-use with explicit thinking traces (`train_think`).**
-- **Stage 3 – GRPO-style reinforcement learning on tool-use tasks.**
-
-The repository is organized around a lightweight training pipeline in `training/`, a GRPO trainer in `examples/`, and unified launch scripts in `scripts/`.
+Code for our paper [TInR: Exploring Tool-Internalized Reasoning in Large Language Models](https://arxiv.org/abs/2604.10788).
 
 ---
 
